@@ -71,7 +71,7 @@ Edit -и вносим изменения
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 нажать Commit
  20. Синхронизировать внешний и локальный репозиторий JSON 
-git clone git@github.com:Vikaztv/JSON.git
+git pull-git push
 
 XML
  21. Создать внешний репозиторий c названием XML.
@@ -140,7 +140,7 @@ Add file-create new file-дать название
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 нажать Commit
  38. Синхронизировать внешний и локальный репозиторий XML
-git clone https://github.com/Vikaztv/XML.git
+git pull -git push
 
 TXT
  1. Создать внешний репозиторий c названием TXT.
@@ -208,4 +208,4 @@ Add file-create new file-дать название
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 нажать Commit
  18. Синхронизировать внешний и локальный репозиторий TXT
-git clone https://github.com/Vikaztv/TXT.git
+git pull -git push
