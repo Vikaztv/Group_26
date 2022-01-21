@@ -20,9 +20,9 @@ Expected result
 Severity
 Priority
 4. Запушить структуру багрепорта на внешний репозиторий
-git add
+git add .
 git commit -m "Add bag.txt file"
-git push --set-upstream origin Bag_report
+git push -u origin Bag_report
 5. Вмержить ветку Bag Reports в Main
 git checkout main
 git merge Bag_report
