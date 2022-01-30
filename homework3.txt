@@ -20,24 +20,24 @@ Expected result
 Severity
 Priority
 4. Запушить структуру багрепорта на внешний репозиторий
-git add .
+git add bag.txt
 git commit -m "Add bag.txt file"
-git push -u origin Bag_report
+git push --set-upstream origin Bag_Reports
 5. Вмержить ветку Bag Reports в Main
 git checkout main
 git merge Bag_report
 6. Запушить main на внешний репозиторий.
 git push
 7. В ветке CheckLists набросать структуру чек листа.
-git checkout Check_lists
-cat > Check_lists.txt
+git checkout Checklists
+cat > Checklists.txt
 ID
 Описание 
 Статус
 8. Запушить структуру на внешний репозиторий
-git add
+git add Check_lists.txt
 git commit -m "Add check_lists.txt"
-git push --set-upstream origin Check_lists
+git push --set-upstream origin Checklists
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 На внешнем репозитории сделать pull request ветки CheckLists в main
 Изменяем Check_lists
